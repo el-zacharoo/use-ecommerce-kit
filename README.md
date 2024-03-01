@@ -134,4 +134,3 @@ const CartTotal = () => {
     );
 };
 ```
-# use-ecommerce-kit

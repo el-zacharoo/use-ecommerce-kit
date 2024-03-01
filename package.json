@@ -1,0 +1,37 @@
+{
+    "name": "use-ecommerce-kit",
+    "version": "1.0.2",
+    "description": "A simple shopping cart provider for React applications.",
+    "private": false,
+    "author": "Zachary Weston",
+    "main": "./dist/src/shopping-cart/index.js",
+    "types": "./dist/src/shopping-cart/index.d.ts",
+    "scripts": {
+        "prepare": "npm run build",
+        "build": "npm run clean && npm run lint && tsc",
+        "clean": "rimraf ./dist",
+        "lint": "tslint 'src/**/*.ts' 'test/**/*.ts'"
+    },
+    "files": [
+        "dist/src/**/*"
+    ],
+    "license": "ISC",
+    "exports": {
+        "import": "./dist/src/shopping-cart/index.js",
+        "require": "./dist/src/shopping-cart/index.js",
+        "types": "./dist/src/shopping-cart/index.d.ts"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "^5.24.1",
+        "@types/lodash": "^4.14.202",
+        "lodash": "^4.17.21",
+        "react": "^18.2.0",
+        "tslint": "^6.1.3"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.28",
+        "rimraf": "^5.0.5",
+        "tslint": "^6.1.3",
+        "typescript": "^5.3.3"
+    }
+}
