@@ -129,7 +129,7 @@ const CartTotal = () => {
             // total price
             <h2>Total Price: ${state.total.toFixed(2)}</h2>
             // total quantity 
-             <h1>{state.amount}</h
+            <h1>{state.amount}</h1>
         </div>
     );
 };
