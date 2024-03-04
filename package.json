@@ -6,6 +6,18 @@
     "author": "Zachary Weston",
     "main": "./dist/src/shopping-cart/index.js",
     "types": "./dist/src/shopping-cart/index.d.ts",
+    "keywords": [
+        "react",
+        "typescript",
+        "shopping",
+        "cart",
+        "ecommerce",
+        "use-ecommerce-kit",
+        "use-ecommerce",
+        "provider",
+        "hooks",
+        "context"
+    ],
     "scripts": {
         "prepare": "npm run build",
         "build": "npm run clean && npm run lint && tsc",
